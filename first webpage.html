@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Webpage</title>
+    <link rel="stylesheet" href="first webpage.css">
+</head>
+
+<body>
+    <div id="topmenu">
+        <div class="wrapper">
+            <ul id="nav">
+                <li><a href="#">صفحه اصلی</a></li>
+                <li><a href="#">همکاری با ما</a></li>
+                <li><a href="#">تبلیغات</a></li>
+                <li><a href="#">تماس با ما</a></li>
+                <li><a href="#">درباره ما</a></li>
+            </ul>
+        </div>
+    </div>
+    <div id="header">
+        <div id="wrapper">
+            <div id="search">
+                <h1>مرجع اموزش انلاین</h1>
+                <form>
+                    <label>دوره مورد نظر خود را جستجو کنید</label><br>
+                    <input type="search" name="search">
+                    <input type="submit" class="button" value="جستجو">
+                </form>
+            </div>
+            <div id="login">
+                <form>
+                    <fieldset>
+                        <legend>وارد شوید</legend>
+                        <label>نام کاربری</label><input type="text" name="user"><br>
+                        <label>رمز عبور</label><input type="password" name="password"><br>
+                        <input type="checkbox"><label>مرا به خاطر بسپار</label><br>
+                        <input type="submit" value="ورود" class="button">
+                        <a href="#" class="button">ثبت نام</a>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div id="main">
+        <div class="wrapper">
+            <div id="sidebar">
+                <h2> دسته بندی</h2>
+                <ul id="cats">
+                    <li>
+                        <a href="#">برنامه نویسی</a>
+                        <ul>
+                            <li><a href="#">My SQL, PHP</a></li>
+                            <li><a href="#">C#, C++,C</a></li>
+                            <li><a href="#">Perl,Ruby,Python</a></li>
+                            <li>
+                                <a href="#">Javascript</a>
+                                <ul>
+                                    <li><a href="#">jQuery</a></li>
+                                    <li><a href="#">Angular JS</a></li>
+                                    <li><a href="#">Node.js</a></li>
+                                    <li><a href="#">Backbone.js</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">MATLAB,Fortran</a></li>
+                            <li><a href="#">برنامه نویسی موبایل</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">طراحی</a>
+                        <ul>
+                            <li><a href="#">طراحی وب</a>
+                                <ul>
+                                    <li><a href="#">CSS,HTML</a></li>
+                                    <li><a href="#">Bootstrap</a></li>
+                                    <li><a href="#">Compass,cass</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">طراحی سه بعدی و انیمیشن</a></li>
+                            <li><a href="#">طراحی دکوراسیون</a></li>
+                            <li><a href="#">طراحی لوگو و بنر</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">درسی و کنکوری</a>
+                        <ul>
+                            <li><a href="#">دروس دبیرستان </a></li>
+                            <li><a href="#">دروس کاردانی</a></li>
+                            <li><a href="#">دروس کارشناسی</a></li>
+                            <li><a href="#">دروس کارشناسی ارشد</a></li>
+                            <li><a href="#">دروس دکترا</a></li>
+                            <li><a href="#">دروس کنکوری</a></li>
+                        </ul>
+                    </li>
+
+                    </li>
+                </ul>
+            </div>
+            <div id="content">
+                <div class="courses">
+                    <h2>اخرین دوره های اموزشی</h2>
+                    <div class="post">
+                        <a href="#">
+                            <img src="images/htmlcss.jpg" alt="" width="260" height="150">
+                            <h3>اموزش طراحی صفحات وب با HTML5,CSS3</h3>
+                            <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                            <span class="postlabel left">ثبت نام ۳۳</span>
+                        </a>
+
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <img src="images/bootstrap.jpg" alt="" width="260" height="150">
+                            <h3>اموزش Bootstrap3</h3>
+                            <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                            <span class="postlabel left">ثبت نام ۳۳</span>
+
+                        </a>
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <img src="images/matlab.jpg" alt="" width="260" height="150">
+                            <h3>اصول برنامه نویسی در MATLAB(از مبتدی تا پیشرفته)</h3>
+                            <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                            <span class="postlabel left">ثبت نام ۳۳</span>
+                        </a>
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <img src="images/jquery.png" alt="" width="260" height="150">
+                            <h3>اموزش کامل jQuery ,jQuery UI</h3>
+                            <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                            <span class="postlabel left">ثبت نام ۳۳</span>
+                        </a>
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <img src="images/phpmysql.jpg" alt="" width="260" height="150">
+                            <h3>اموزش برنامه نویسی با PHP , MySQL</h3>
+                            <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                            <span class="postlabel left">ثبت نام ۳۳</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="courses">
+                    <h2>پرطرفدارترین دوره های اموزشی</h2>
+                    <div class="post">
+                        <a href="#">
+                            <img src="images/htmlcss.jpg" alt="" width="260" height="150">
+                            <h3>اموزش طراحی صفحات وب با HTML5,CSS3</h3>
+                            <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                            <span class="postlabel left">ثبت نام ۳۳</span>
+                        </a>
+
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <img src="images/bootstrap.jpg" alt="" width="260" height="150">
+                            <h3>اموزش Bootstrap3</h3>
+                            <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                            <span class="postlabel left">ثبت نام ۳۳</span>
+
+                        </a>
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <img src="images/matlab.jpg" alt="" width="260" height="150">
+                            <h3>اصول برنامه نویسی در MATLAB(از مبتدی تا پیشرفته)</h3>
+                            <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                            <span class="postlabel left">ثبت نام ۳۳</span>
+                        </a>
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <img src="images/jquery.png" alt="" width="260" height="150">
+                            <h3>اموزش کامل jQuery ,jQuery UI</h3>
+                            <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                            <span class="postlabel left">ثبت نام ۳۳</span>
+                        </a>
+                    </div>
+                    <div class="post">
+                        <a href="#">
+                            <img src="images/phpmysql.jpg" alt="" width="260" height="150">
+                            <h3>اموزش برنامه نویسی با PHP , MySQL</h3>
+                            <span class="postlabel right">۳۰:۲۲:۲۲</span>
+                            <span class="postlabel left">ثبت نام ۳۳</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div id="footer">
+
+        <div class="wrapper">
+            <div id="sitemap" class="right">
+                <h3>نقشه سایت</h3>
+                <ul>
+                    <li><a href="#">صفحه اصلی</a></li>
+                    <li><a href="#">همکاری با ما</a></li>
+                    <li><a href="#">تبلیغات</a></li>
+                    <li><a href="#">درباره ما </a></li>
+                    <li><a href="#">تماس با ما</a></li>
+                </ul>
+            </div>
+            <div id="newsletter" class="left">
+                <h3>عضویت در خبرنامه</h3>
+                <form>
+                    <label>ایمیل خود را وارد کنید</label>
+                    <input type="email" name="email"><br>
+                    <input type="submit" value="عضویت">
+                </form>
+            </div>
+
+        </div>
+        <div id="copyright">
+            <p>کلیه حقوق مادی و معنوی این سایت متعلق به مرجع اموزش انلاین است.</p>
+        </div>
+    </div>
+</body>
+
+</html>
